@@ -1,0 +1,12 @@
+Print the ec2 instance id
+i-0abd2c9378c7f276a
+list s3 buckets
+2025-12-16 18:40:27 ketok
+list lambda function
+{
+    "Functions": []
+}
+Print the IAM users
+{
+    "Users": []
+}
