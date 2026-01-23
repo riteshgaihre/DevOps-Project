@@ -1,0 +1,23 @@
+---
+- name: update apt cache
+  apt:
+    update_cache: yes
+
+- name: Install basic packages
+  apt:
+    name:
+      - git 
+      - curl
+      - nginx
+      
+    state: present
+
+- name: Start and enable nginx
+  service:
+    name: nginx
+    state: started
+    enabled: yes
+
+- name: set timezone 
+  timezone:
+    name: Australia/Sydney

@@ -1,0 +1,7 @@
+---
+
+- name: Install basic packages
+  hosts: webserver
+  become: true
+  roles:
+    - packages
