@@ -1,12 +1,22 @@
-Print the ec2 instance id
-i-0abd2c9378c7f276a
+Print the ec2 instance id and image id
+i-0545de6ab97d3a3ca ami-0b8d527345fdace59
+i-0f3ecea1d638abc71 ami-0b8d527345fdace59
 list s3 buckets
-2025-12-16 18:40:27 ketok
+2026-01-31 17:52:36 rekon-rekon
 list lambda function
 {
     "Functions": []
 }
 Print the IAM users
 {
-    "Users": []
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "AWS_USER_RITESH",
+            "UserId": "AIDARKPS7HR6CKJK5CNOI",
+            "Arn": "arn:aws:iam::091240742012:user/AWS_USER_RITESH",
+            "CreateDate": "2025-12-28T08:47:35+00:00",
+            "PasswordLastUsed": "2025-12-28T09:49:34+00:00"
+        }
+    ]
 }
